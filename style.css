@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Itim', cursive;
+	
+}
+.container{
+	width: 100%;
+	height: 50vh;
+    background: rgb(160,134,255);
+    position: relative;
+    box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+}
+.logo{
+	width: 10%;
+	margin-top: 15px;
+	height: 20px;
+	float: left;
+	line-height: 80px;
+}
+
+nav{
+	width: 100%;
+	height: 20px;
+	float: right;
+}
+nav ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 2px;
+}
+nav ul li{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 20px;
+	
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+nav ul li:last-child{
+	width: 100px;
+	height: 35px;
+}
+nav ul button{
+	width: 100%;
+	height: 35px;
+	border-radius: 10px;
+	border: none;
+	background: #BA4DF9;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	box-shadow: 0px 0px 23px 1px;
+}
+.bg-1{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/118750244_1404266003116259_2760755235005646284_n.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30%;
+    box-sizing: border-box;
+}
+#product{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 2%;
+	background-color: #dbdbdb;
+}
+#product .frame{
+	width: 100%;
+}
+#product .frame .p1{
+	margin-top: 35px;
+	
+	width: 40%;
+	text-align: center;
+	padding: 2%;
+	margin-right: 3%;
+	background-color: #FFFFFF;
+	float: left;
+}
+
+
+#product .frame .p2{
+	width: 40%;
+	margin-top: 35px;
+	
+	text-align: center;
+	padding: 2%;
+	margin-right: 3%;
+	background-color: #FFFFFF;
+	float: right;
+}
+.bound{
+	margin-top: 450px;
+}
+.bound2{
+	margin-top: 50px;
+	
+}
+.bound2 img{
+	width: 100%;
+	margin-top: 60px; 
+	
+}
+.content-body{
+	width: 50px;
+	color: white;
+	margin-top: -350px;
+	font-size: 25px;
+	margin-left: 250px;
+
+}
+.content-body h2{
+	margin-top: 50px;
+}
+.content-body p{
+	width: 450px;
+	text-align: center;
+	margin-right: 1600px;
+	margin-top: 20px;
+}
+.content-body h3 a{
+	width: 150px;
+	margin-left: 150px;
+	font-size: 20px;
+	margin-top: 15px;
+	color: #E7DD57;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+
+
+.footer{
+	margin-top: 150px;
+	
+}
+#product .frame .p1 .box1{
+	margin-top: -190px;
+}
+#product .frame .p2 .box2{
+	margin-top: -100px;
+}
+
